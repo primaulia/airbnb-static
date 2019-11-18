@@ -1,0 +1,18 @@
+<h1>All Flats</h1>
+
+<ul>
+<% @flats.each do |flat| %>
+  <li>
+    <%= link_to show_path(flat["id"]) do %>
+      <img src="<%= flat["imageUrl"]%>" width="400">
+    <% end %>
+    <h3>
+      <!-- link_to block -->
+      <%= link_to show_path(flat["id"]) do %>
+        <%= flat["name"] %>
+      <% end %>
+    </h3>
+  </li>
+<% end %>
+</ul>
+

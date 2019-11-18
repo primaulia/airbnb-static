@@ -1,24 +1,8 @@
 # README
+<!-- Expectation -->
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!-- A home page listing flats -->
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<!-- H1 => Flats -->
+<!-- li => name of the flats & image src -->
+<!-- 6 li's to be displayed -->
